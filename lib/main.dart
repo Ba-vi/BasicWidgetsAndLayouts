@@ -1,5 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_widgets/widgets/margin_widget.dart';
+import 'package:flutter_widgets/widgets/alignment_widget.dart';
+//import 'package:flutter_widgets/widgets/column_widget.dart';
+//import 'package:flutter_widgets/widgets/container_widget.dart';
+//import 'package:flutter_widgets/widgets/icon_widget.dart';
+//import 'package:flutter_widgets/widgets/image_widget.dart';
+//import 'package:flutter_widgets/widgets/margin_widget.dart';
 //import 'package:flutter_widgets/widgets/network_widget.dart';
 //import 'package:flutter_widgets/widgets/paddding_widget.dart';
 //import 'package:flutter_widgets/widgets/row_widget.dart';
@@ -21,7 +26,7 @@ class MyApp extends StatelessWidget {
        
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: const MarginWidget(),
+      home: AlignmentWidget(),
     );
   }
 }
